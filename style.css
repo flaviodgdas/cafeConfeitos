@@ -30,12 +30,28 @@ nav ul li a {
 
 #banner {
   background-color: #f3e5ab;
-  padding: 40px;
+  padding: 10px;
+  text-align: center;
+}
+h5{
   text-align: center;
 }
 
 #cardapio {
   padding: 20px;
+}
+.procardapio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;  
+}
+.itemcardapio{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
 }
 
 .produtos {
